@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: rgb(226, 224, 224);
+    background: #e2e0e0;
 }
 
 .home{
@@ -48,4 +48,34 @@
 
 .btn1:hover{
     transform: translateY(-1px);
+}
+
+
+.btn2{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #ec7085;
+    display: inline-block;
+    font-weight: 800;
+    font-family: sans-serif;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid #ec7085;
+    line-height: 26px;
+    box-sizing: border-box;
+    min-height: 40px;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 4px;
+
+
+}
+
+.btn2:hover{
+    background-position: 0 0;
+    /* background-color: #e2e0e0; */
+    background-color: initial;
+    color: #ec7085;
 }
