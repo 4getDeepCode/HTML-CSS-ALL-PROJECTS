@@ -67,3 +67,78 @@ header{
     padding-right: 20px;
 }
 
+
+.compose-button{
+    /* margin-top: 13px;
+    margin-left: 10px;
+    margin-bottom: 13px; */
+    margin: 13px 8px 13px 8px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    color: grey;
+    outline: none;
+    box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+
+.compose-button span{
+    margin-right: 10px;
+}
+
+.sidebar-option{
+    display: flex;
+    align-items: center;
+    /* margin-left: 13px; */
+    height: 40px;
+    padding:0 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: grey;
+    cursor: pointer;
+    
+
+}
+
+.sidebar-option .material-symbols-outlined{
+    padding: 5px;
+}
+
+.sidebar-option h3{
+    flex: 1;
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+.sidebar-option:hover,
+.sidebar-option:hover h3, 
+.sidebar-option:hover .material-symbols-outlined,
+.sidebar-option_active ,
+.sidebar-option_active h3,
+.sidebar-option_active .material-symbols-outlined
+{
+    background-color: #fcecec;
+    color: #c04b37;
+    font-weight: 800;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+
+.sidebar-footerIcons .material-symbols-outlined{
+    margin: 7px;
+    cursor: pointer;
+
+}
+
+
